@@ -1,27 +1,17 @@
-{
-  "version": 1,
-  "taskbar": {
-    "pinList": [
-      {
-        "appID": "Microsoft.Windows.StartMenu",
-        "desktopAppLink": null
-      },
-      {
-        "appID": "Microsoft.Windows.Search",
-        "desktopAppLink": null
-      },
-      {
-        "appID": "Microsoft.Windows.Explorer",
-        "desktopAppLink": null
-      },
-      {
-        "appID": "Microsoft.Office.OUTLOOK.EXE",
-        "desktopAppLink": "%ProgramFiles%\\Microsoft Office\\root\\Office16\\OUTLOOK.EXE"
-      },
-      {
-        "appID": "Microsoft.Teams.Desktop",
-        "desktopAppLink": null
-      }
-    ]
-  }
-}
+<?xml version="1.0" encoding="utf-8"?>
+<LayoutModificationTemplate Version="1" xmlns="http://schemas.microsoft.com/Start/2014/LayoutModification">
+    <CustomTaskbarLayoutCollection PinListPlacement="Replace">
+        <defaultlayout:TaskbarLayout xmlns:defaultlayout="http://schemas.microsoft.com/Start/2014/TaskbarLayout">
+            <taskbar:TaskbarPinList>
+                <!-- Pin File Explorer -->
+                <taskbar:DesktopApp DesktopApplicationLinkPath="%SystemRoot%\\explorer.exe" />
+
+                <!-- Pin Outlook -->
+                <taskbar:DesktopApp DesktopApplicationLinkPath="%ProgramFiles%\\Microsoft Office\\root\\Office16\\OUTLOOK.EXE" />
+
+                <!-- Pin Teams -->
+                <taskbar:DesktopApp DesktopApplicationLinkPath="%APPDATA%\\Microsoft\\Windows\\Start Menu\\Programs\\Microsoft Teams.lnk" />
+            </taskbar:TaskbarPinList>
+        </defaultlayout:TaskbarLayout>
+    </CustomTaskbarLayoutCollection>
+</LayoutModificationTemplate>
