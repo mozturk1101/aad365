@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "taskbar": {
+    "pinList": [
+      {
+        "appID": "Microsoft.Windows.StartMenu",
+        "desktopAppLink": null
+      },
+      {
+        "appID": "Microsoft.Windows.Search",
+        "desktopAppLink": null
+      },
+      {
+        "appID": "Microsoft.Windows.Explorer",
+        "desktopAppLink": null
+      },
+      {
+        "appID": "Microsoft.Office.OUTLOOK.EXE",
+        "desktopAppLink": "%ProgramFiles%\\Microsoft Office\\root\\Office16\\OUTLOOK.EXE"
+      },
+      {
+        "appID": "Microsoft.Teams.Desktop",
+        "desktopAppLink": null
+      }
+    ]
+  }
+}
