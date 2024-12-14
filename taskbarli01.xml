@@ -7,7 +7,7 @@
                 <taskbar:DesktopApp DesktopApplicationLinkPath="%SystemRoot%\\explorer.exe" />
 
                 <!-- Pin New Outlook -->
-                <taskbar:UWPApp AppUserModelID="Microsoft.Office.Outlook_8wekyb3d8bbwe!microsoft.office.outlookhub" />
+                <taskbar:UWPApp AppUserModelID="Microsoft.Office.Outlook_8wekyb3d8bbwe!Microsoft.OutlookforWindows" />
 
                 <!-- Pin Teams -->
                 <taskbar:DesktopApp DesktopApplicationLinkPath="%APPDATA%\\Microsoft\\Windows\\Start Menu\\Programs\\Microsoft Teams.lnk" />
